@@ -72,6 +72,7 @@ hr {
   color: goldenrod;
   font-size: 0.8rem;
 }
+
 /* GLOBAL STYLES */
 
 /* NAVBAR */
@@ -121,24 +122,25 @@ hr {
 }
 
 @media only screen and (max-width: 991px) {
-  body > nav > div > button:hover,
-  body > nav > div > button:focus {
+
+  body>nav>div>button:hover,
+  body>nav>div>button:focus {
     background-color: #fb774b;
   }
 
-  body > nav > div > button:hover #bar,
-  body > nav > div > button:focus #bar {
+  body>nav>div>button:hover #bar,
+  body>nav>div>button:focus #bar {
     color: white;
   }
 
-  #navbarSupportedContent > ul {
+  #navbarSupportedContent>ul {
     margin: 1rem;
     justify-content: flex-end;
     align-items: flex-end;
     text-align: right;
   }
 
-  #navbarSupportedContent > ul > li:nth-child(n) > a {
+  #navbarSupportedContent>ul>li:nth-child(n)>a {
     padding: 10px 0;
   }
 }
@@ -229,7 +231,6 @@ hr {
 /* PRODUCTS */
 .product {
   cursor: pointer;
-  margin-bottom: 2rem;
 }
 
 .product img {
